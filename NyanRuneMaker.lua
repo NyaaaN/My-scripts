@@ -33,7 +33,6 @@ end
 function GameClose()
 	nLast = nil
 	runes = nil
-	collectgarbage("collect")
 end
  
 script:RegisterEvent(EVENT_CLOSE,GameClose)

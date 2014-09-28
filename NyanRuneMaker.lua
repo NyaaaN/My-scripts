@@ -1,6 +1,6 @@
 local nLast = 0	
 local runes = {}
-runes[-2272] = drawMgr:CreateRect(104,901,16,16,-1)	runes[-2272].visible = false 
+runes[-2272] = drawMgr:CreateRect(104,901,16,16,-1) runes[-2272].visible = false 
 runes[3008] = drawMgr:CreateRect(198,978,16,16,-1) runes[3008].visible = false 
   
 function Main()

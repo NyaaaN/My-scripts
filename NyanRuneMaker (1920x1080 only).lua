@@ -31,8 +31,8 @@ function Main()
 end
 
 function GameClose()
-	nLast = nil
-	runes = nil
+	nLast = 0
+	runes = {}
 end
  
 script:RegisterEvent(EVENT_CLOSE,GameClose)
